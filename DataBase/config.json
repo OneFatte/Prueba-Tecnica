@@ -1,4 +1,0 @@
-{ 
-    "express" : { "port" : 80 }, 
-    "postgres": { "db" : "tienda", "user" : "postgres", "password" : "root", "host" : "localhost" } 
-} 
