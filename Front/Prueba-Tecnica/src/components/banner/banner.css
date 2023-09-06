@@ -1,0 +1,13 @@
+.bannerContenedor{
+    height: 40%;
+    width: 100%;
+}
+.bannerContenedor .titulo{
+    padding: 1rem;
+}
+.bannerContenedor .banner{
+    height: 70%;
+    background-image: url(./banner.jpg);
+    background-size: cover;
+    background-position-y: 55%;
+}

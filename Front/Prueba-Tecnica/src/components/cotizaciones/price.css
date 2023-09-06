@@ -1,0 +1,53 @@
+.priceContainer{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+
+.cartContainer{
+    padding: 1rem;
+}
+
+.cartObjeto {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.cartObjeto img {
+    width: 15rem;
+    height: 10rem;
+    border-radius: 1rem;
+}
+
+.cartObjeto h3,
+.cartObjeto h4 {
+    width: 8rem;
+}
+
+.cartObjeto .price {
+    justify-self: flex-end;
+}
+
+.cartObjeto .nombre {
+    font-size: 1.5rem;
+}
+
+.btnContador {
+    cursor: pointer;
+    color: #777;
+}
+
+.btnContador:hover {
+    color: #b3b1b1;
+}
+
+.btnContador:active {
+    color: #333;
+}
+
+.btnContador svg {
+    width: 1.5rem;
+    height: 1.5rem;
+}

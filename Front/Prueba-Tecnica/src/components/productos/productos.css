@@ -1,0 +1,40 @@
+.productCard{
+    padding: 1rem;
+}
+.productContainer{
+    padding-top: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 1rem;
+}
+
+.card{
+    background-color: #eee;
+    padding: 1rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    gap: 0.5rem;
+}
+.textCard{
+    display: flex;
+    flex-direction: column;
+}
+.card img{
+    height: 100px;
+}
+.card button{
+    background-color: #555;
+    color: white;
+    padding: 0.6rem 1rem;
+    border-radius: 10px;
+    border: none;
+}
+
+.card button:hover{
+    background-color: #111;
+    cursor: pointer;
+}
